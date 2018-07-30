@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for Grabber
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 LinkedManagedProjectGUID=
@@ -141,10 +141,6 @@ GenerateClassCluster=0
 DocumentUniqueId=OCVDSSMV
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for PCB_3U_CamLink\Design Rule Check - PCB_3U_CamLink.html
-DItemRevisionGUID=
-
-[GeneratedDocument2]
 DocumentPath=Project Outputs for Grabber\Panel\AutoCAD PCB\Panel_Grabber.DXF
 DItemRevisionGUID=
 
@@ -169,7 +165,7 @@ ContentTypeGUID=
 ConfigurationType=
 
 [Generic_EDE]
-OutputDir=Project Outputs for Grabber
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
