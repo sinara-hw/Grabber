@@ -21,7 +21,7 @@ TargetOutputMedium=DWG
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Brother DCP-L2540DN series
+TargetPrinter=Brother DCP-J315W Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -85,7 +85,35 @@ OutputEnabled3_OutputMedium4=0
 OutputEnabled3_OutputMedium5=1
 OutputDefault3=0
 Configuration3_Name1=OutputConfigurationParameter1
-Configuration3_Item1=Record=ExportDXFView|ACadVersion=61|UseRoundedTracks=True|Components=0|HoleMode=1|Units=1|OutputFormat=1|OnlyVisibleLayers=True|ZeroWidthLines=0
+Configuration3_Item1=Record=ExportDXFView|ACadVersion=61|UseRoundedTracks=True|Components=0|HoleMode=0|Units=1|OutputFormat=1|OnlyVisibleLayers=True|ZeroWidthLines=0
+OutputType4=ExportSTEP
+OutputName4=Export STEP
+OutputCategory4=Export
+OutputDocumentPath4=Panel_Grabber.PcbDoc
+OutputVariantName4=
+OutputEnabled4=1
+OutputEnabled4_OutputMedium1=0
+OutputEnabled4_OutputMedium2=0
+OutputEnabled4_OutputMedium3=0
+OutputEnabled4_OutputMedium4=0
+OutputEnabled4_OutputMedium5=2
+OutputDefault4=0
+Configuration4_Name1=OutputConfigurationParameter1
+Configuration4_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=False|IncludeElectricalPadHoles=False|IncludeFreePadHoles=False|ExportFoldedBoard=True|ExportFoldedBoardRate=0|ComponentSuffixType=0|ComponentSuffix= |ExportCopperOption=0|ExportCopperLayer=0|ExportPadAndViaBarrelsOnly=False|IgnoreBoardCopperLayerColors=False|ExportAsSinglePart=False|IncludeCoverLayer=True|SkipFreeBodies=False
+OutputType5=ExportIDF
+OutputName5=Export IDF
+OutputCategory5=Export
+OutputDocumentPath5=Panel_Grabber.PcbDoc
+OutputVariantName5=
+OutputEnabled5=1
+OutputEnabled5_OutputMedium1=0
+OutputEnabled5_OutputMedium2=0
+OutputEnabled5_OutputMedium3=0
+OutputEnabled5_OutputMedium4=0
+OutputEnabled5_OutputMedium5=3
+OutputDefault5=0
+Configuration5_Name1=OutputConfigurationParameter1
+Configuration5_Item1=Record=ExportIDF|VersionNumber=1|DisplayUnits=2|DrilledHolesKind=0|DrilledHolesLargerThanSize=200.0|BlankComponentString= |UseSafeComponentNames=False|UseUnicode=False|MultipleComponentBodyMode=0|FileExtensionType=0|OverrideComponentNameWithParameter= |eoBoardOutline=0|eoDrilledHoles=1|eoPlacement=2
 
 [PublishSettings]
 OutputFilePath2=Project Outputs for Grabber\Panel\Panels_3Dview.PDF
@@ -117,7 +145,7 @@ PDFACompliance2=Disabled
 PDFVersion2=Default
 OutputFilePath3=
 ReleaseManaged3=1
-OutputBasePath3=Project Outputs for Free Documents
+OutputBasePath3=Project Outputs for Grabber
 OutputPathMedia3=
 OutputPathMediaValue3=
 OutputPathOutputer3=[Output Type]
@@ -179,7 +207,7 @@ ShowComponentParameters4=1
 GlobalBookmarks4=0
 PDFACompliance4=Disabled
 PDFVersion4=Default
-OutputFilePath5=Project Outputs for Grabber\Panel\
+OutputFilePath5=D:\DESIGNS\Sinara_ALTIUM\EEMs\Grabber\Project Outputs for Grabber\Panel\
 ReleaseManaged5=0
 OutputBasePath5=Project Outputs for Grabber\
 OutputPathMedia5=Panel
@@ -200,7 +228,7 @@ RelativeOutputPath3=
 OpenOutputs3=1
 RelativeOutputPath4=Project Outputs for Grabber\Panel\PANELS.PDF
 OpenOutputs4=1
-RelativeOutputPath5=Project Outputs for Grabber\Panel\
+RelativeOutputPath5=D:\DESIGNS\Sinara_ALTIUM\EEMs\Grabber\Project Outputs for Grabber\Panel\
 OpenOutputs5=1
 AddToProject5=1
 TimestampFolder5=0
