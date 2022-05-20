@@ -154,6 +154,18 @@ DItemRevisionGUID=
 DocumentPath=Project Outputs for Grabber\Panel\ExportSTEP\Panel_Grabber.step
 DItemRevisionGUID=
 
+[GeneratedDocument4]
+DocumentPath=C:\Users\Admin\AppData\Local\Temp\Pro423A.xls
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=C:\Users\Admin\AppData\Local\Temp\ProBD99.xls
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=C:\Users\Admin\AppData\Local\Temp\ProC2B9.xls
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Default Configuration
 ParameterCount=0
@@ -286,7 +298,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Brother MFC-L2710DW series
+TargetPrinter=Brother DCP-L2540DN series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -706,31 +718,16 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=Ansoft Neutral
-OutputName10=Ansoft Neutral (AutoPCB)
+OutputType10=MBAExportPARASOLID
+OutputName10=Export PARASOLID
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
-OutputType11=HyperLynx
-OutputName11=HyperLynx (AutoPCB)
+OutputType11=MBAExportSTEP
+OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=SiSoft
-OutputName12=SiSoft (AutoPCB)
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=MBAExportPARASOLID
-OutputName13=Export PARASOLID
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=MBAExportSTEP
-OutputName14=Export STEP
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
