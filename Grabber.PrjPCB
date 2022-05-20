@@ -25,16 +25,25 @@ NameNetsHierarchically=0
 PowerPortNamesTakePriority=0
 AutoSheetNumbering=0
 AutoCrossReferences=0
+NewIndexingOfSheetSymbols=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
+IsVirtualBomDocumentRemoved=0
 OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
+CrossRefSheetStyle=1
+CrossRefLocationStyle=1
+CrossRefPorts=3
+CrossRefCrossSheets=1
+CrossRefSheetEntries=0
+CrossRefFollowFromMainSettings=1
+CurrentVariant=std
 
 [Preferences]
 PrefsVaultGUID=
@@ -142,28 +151,38 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OCVDSSMV
 
+[ProjectVariant1]
+UniqueID=7E3F072F-56EF-47D9-BFDB-D765A8A404A0
+Description=std
+AllowFabrication=0
+ParameterCount=0
+VariationCount=10
+Variation1=Designator=IC27|UniqueId=\GUDNMMUS|Kind=1|AlternatePart= 
+Variation2=Designator=L2|UniqueId=\FVEHAFTG|Kind=1|AlternatePart= 
+Variation3=Designator=R121|UniqueId=\VFRCOCCH|Kind=1|AlternatePart= 
+Variation4=Designator=R122|UniqueId=\PFHYRPAO|Kind=1|AlternatePart= 
+Variation5=Designator=C65|UniqueId=\QKPKXUMI|Kind=1|AlternatePart= 
+Variation6=Designator=C66|UniqueId=\WTCSHSPA|Kind=1|AlternatePart= 
+Variation7=Designator=C68|UniqueId=\SRCMBJIS|Kind=1|AlternatePart= 
+Variation8=Designator=C67|UniqueId=\OCYEUCIH|Kind=1|AlternatePart= 
+Variation9=Designator=IC1|UniqueId=\WOBEGUTK|Kind=1|AlternatePart= 
+Variation10=Designator=IC26|UniqueId=\MRQBSGMF|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
 [GeneratedDocument1]
-DocumentPath=Project Outputs for Grabber\Panel\ExportIDF\Panel_Grabber.brd
+DocumentPath=Project Outputs for Grabber\Design Rule Check - Grabber.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for Grabber\Panel\AutoCAD PCB\Panel_Grabber.DXF
+DocumentPath=Project Outputs for Grabber\Panel\ExportIDF\Panel_Grabber.brd
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for Grabber\Panel\ExportSTEP\Panel_Grabber.step
+DocumentPath=Project Outputs for Grabber\Panel\AutoCAD PCB\Panel_Grabber.DXF
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=C:\Users\Admin\AppData\Local\Temp\Pro423A.xls
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=C:\Users\Admin\AppData\Local\Temp\ProBD99.xls
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=C:\Users\Admin\AppData\Local\Temp\ProC2B9.xls
+DocumentPath=Project Outputs for Grabber\Panel\ExportSTEP\Panel_Grabber.step
 DItemRevisionGUID=
 
 [Configuration1]
@@ -298,7 +317,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Brother DCP-L2540DN series
+TargetPrinter=Brother DCP-L2540DN series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -732,7 +751,7 @@ OutputDefault11=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=Brother DCP-L2540DN series
+TargetPrinter=Brother DCP-L2540DN series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
@@ -1057,6 +1076,7 @@ Type122=2
 Type123=1
 Type124=1
 Type125=1
+Type126=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
