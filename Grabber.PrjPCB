@@ -156,7 +156,7 @@ UniqueID=7E3F072F-56EF-47D9-BFDB-D765A8A404A0
 Description=std
 AllowFabrication=0
 ParameterCount=0
-VariationCount=10
+VariationCount=12
 Variation1=Designator=IC27|UniqueId=\GUDNMMUS|Kind=1|AlternatePart= 
 Variation2=Designator=L2|UniqueId=\FVEHAFTG|Kind=1|AlternatePart= 
 Variation3=Designator=R121|UniqueId=\VFRCOCCH|Kind=1|AlternatePart= 
@@ -167,6 +167,8 @@ Variation7=Designator=C68|UniqueId=\SRCMBJIS|Kind=1|AlternatePart=
 Variation8=Designator=C67|UniqueId=\OCYEUCIH|Kind=1|AlternatePart= 
 Variation9=Designator=IC1|UniqueId=\WOBEGUTK|Kind=1|AlternatePart= 
 Variation10=Designator=IC26|UniqueId=\MRQBSGMF|Kind=1|AlternatePart= 
+Variation11=Designator=IC5|UniqueId=\ABZRCPNI|Kind=0|AlternatePart= 
+Variation12=Designator=IC24|UniqueId=\KLHVYQUB|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
