@@ -33,7 +33,7 @@ FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
 IsVirtualBomDocumentRemoved=0
-OutputPath=
+OutputPath=Project Outputs for Grabber
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -187,6 +187,10 @@ DItemRevisionGUID=
 DocumentPath=Project Outputs for Grabber\Panel\ExportSTEP\Panel_Grabber.step
 DItemRevisionGUID=
 
+[GeneratedDocument5]
+DocumentPath=C:\Users\Admin\AppData\Local\Temp\Qjz7B9E.xls
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Default Configuration
 ParameterCount=0
@@ -208,7 +212,7 @@ ContentTypeGUID=
 ConfigurationType=
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for Grabber
 
 [OutputGroup1]
 Name=Netlist Outputs
