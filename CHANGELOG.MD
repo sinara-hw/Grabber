@@ -4,6 +4,22 @@ All notable changes to Grabber-DIOT are documented in this file.
 
 ## v2.0
 
+**Release owner:** Mikołaj Sowiński (TS)
+
+**Designers:** 
+- Krzysztof Belewicz (WUT)
+
+**Reviewers:** 
+- Maciej Przybysz (TS)
+- Marta Fąfara (TS)
+
+**Contributors:** 
+- Marcin Kiepiela (TS)
+
+**Funded by:** 
+- WUT ISE
+- Technosystem
+
 All schematic files updated according to DIOT template v1.4.  
 Changes in respect to the previous revision:
 
@@ -69,21 +85,6 @@ PCB changes:
 - front panel LEDs changed to Dialight 571-0112F, adjusted connector positions
 - added note about ZCLK/ Z0-Z3 on the silkscreen layer
 
-**Release owner:** Mikołaj Sowiński (TS)
-
-**Designers:** 
-- Krzysztof Belewicz (WUT)
-
-**Reviewers:** 
-- Maciej Przybysz (TS)
-- Marta Fąfara (TS)
-
-**Contributors:** 
-- Marcin Kiepiela (TS)
-
-**Funded by:** 
-- WUT ISE
-- Technosystem
 
 
 ---
