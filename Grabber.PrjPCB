@@ -44,7 +44,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
-CurrentVariant=DIOT
+CurrentVariant=EEM
 
 [Preferences]
 PrefsVaultGUID=
@@ -378,7 +378,7 @@ UniqueId=A2FB463C-E379-4070-9A11-B2A9E4752451
 Description=EEM
 AllowFabrication=0
 ParameterCount=0
-VariationCount=39
+VariationCount=40
 Variation1=Designator=T_IC3|UniqueId=\HFXIRERH\RTXDXYRA|Kind=1|AlternatePart==Device
 ParamVariation1=ParameterName=Comment|VariantValue==Device
 ParamDesignator1=T_IC3
@@ -552,6 +552,7 @@ ParamDesignator66=T_R26
 Variation39=Designator=T_IC10|UniqueId=\HFXIRERH\IRMETPCO|Kind=1|AlternatePart==Device
 ParamVariation67=ParameterName=Comment|VariantValue==Device
 ParamDesignator67=T_IC10
+Variation40=Designator=T_R4|UniqueId=\TAKSADSN\PPDRFUGF|Kind=1|AlternatePart=
 ParamVariationCount=67
 
 [ProjectVariant2]
@@ -559,7 +560,7 @@ UniqueId=9B67D6B0-16CF-46F1-A082-28F39AAF0D0C
 Description=DIOT
 AllowFabrication=0
 ParameterCount=0
-VariationCount=6
+VariationCount=7
 Variation1=Designator=T_IC3|UniqueId=\HFXIRERH\RTXDXYRA|Kind=1|AlternatePart==Device
 ParamVariation1=ParameterName=Comment|VariantValue==Device
 ParamDesignator1=T_IC3
@@ -578,6 +579,7 @@ ParamDesignator5=T_J2
 Variation6=Designator=T_J3|UniqueId=\HFXIRERH\IHKSNTEN|Kind=1|AlternatePart==Familly
 ParamVariation6=ParameterName=Comment|VariantValue==Familly
 ParamDesignator6=T_J3
+Variation7=Designator=T_R4|UniqueId=\TAKSADSN\PPDRFUGF|Kind=0|AlternatePart=
 ParamVariationCount=6
 
 [Parameter1]

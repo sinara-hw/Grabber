@@ -7,7 +7,7 @@ All notable changes to Grabber-DIOT are documented in this file.
 **Release owner:** Mikołaj Sowiński (TS)
 
 **Designers:** 
-- Krzysztof Belewicz (WUT)
+- Krzysztof Belewicz (WUT ISE)
 
 **Reviewers:** 
 - Maciej Przybysz (TS)
