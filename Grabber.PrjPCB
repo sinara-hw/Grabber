@@ -44,7 +44,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
-CurrentVariant=EEM
+CurrentVariant=DIOT
 
 [Preferences]
 PrefsVaultGUID=
@@ -85,7 +85,7 @@ GenerateClassCluster=0
 DocumentUniqueId=VGBTAUBO
 
 [Document3]
-DocumentPath=PCB\Grabber_DIOT.PCBDOC
+DocumentPath=PCB\Grabber.PCBDOC
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -102,7 +102,7 @@ GenerateClassCluster=0
 DocumentUniqueId=SSJUWAXR
 
 [Document4]
-DocumentPath=SCH\Grabber_DIOT.SchDoc
+DocumentPath=SCH\Grabber.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -569,44 +569,44 @@ ParamDesignator2=T_IC5
 Variation3=Designator=T_IC10|UniqueId=\HFXIRERH\IRMETPCO|Kind=1|AlternatePart==Device
 ParamVariation3=ParameterName=Comment|VariantValue==Device
 ParamDesignator3=T_IC10
-Variation4=Designator=T_J1|UniqueId=\HFXIRERH\AVKLCJER|Kind=0|AlternatePart==Familly
+Variation4=Designator=T_J1|UniqueId=\HFXIRERH\AVKLCJER|Kind=1|AlternatePart==Familly
 ParamVariation4=ParameterName=Comment|VariantValue==Familly
 ParamDesignator4=T_J1
-Variation5=Designator=T_J2|UniqueId=\HFXIRERH\EJIEBMBV|Kind=0|AlternatePart==Familly
+Variation5=Designator=T_J2|UniqueId=\HFXIRERH\EJIEBMBV|Kind=1|AlternatePart==Familly
 ParamVariation5=ParameterName=Comment|VariantValue==Familly
 ParamDesignator5=T_J2
-Variation6=Designator=T_J3|UniqueId=\HFXIRERH\IHKSNTEN|Kind=0|AlternatePart==Familly
+Variation6=Designator=T_J3|UniqueId=\HFXIRERH\IHKSNTEN|Kind=1|AlternatePart==Familly
 ParamVariation6=ParameterName=Comment|VariantValue==Familly
 ParamDesignator6=T_J3
 ParamVariationCount=6
 
 [Parameter1]
-Name=P_version
-Value=2.0
+Name=P_copyright_owner
+Value=WUT ISE 2024-2026 · Technosystem 2025-2026
 
 [Parameter2]
-Name=P_template_version
-Value=1.4
+Name=P_github_link
+Value=https://github.com/sinara-hw/Grabber
 
 [Parameter3]
-Name=P_release_reviewers
-Value=Maciej Przybysz (TS), Marta Fąfara (TS)
+Name=P_release_designers
+Value=Krzysztof Belewicz (WUT ISE)
 
 [Parameter4]
 Name=P_release_owner
 Value=Mikołaj Sowiński (TS)
 
 [Parameter5]
-Name=P_release_designers
-Value=Krzysztof Belewicz (WUT ISE)
+Name=P_release_reviewers
+Value=Maciej Przybysz (TS), Marta Fąfara (TS)
 
 [Parameter6]
-Name=P_github_link
-Value=https://github.com/sinara-hw/Grabber
+Name=P_template_version
+Value=1.4
 
 [Parameter7]
-Name=P_copyright_owner
-Value=WUT ISE 2024-2026 · Technosystem 2025-2026
+Name=P_version
+Value=2.0
 
 [Configuration1]
 Name=Sources
@@ -733,22 +733,12 @@ OutputName20=PADS ASCII Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=XSpiceNetlist
-OutputName21=Mixed Sim Netlist
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
 TargetPrinter=Canon MG3600 series Printer WS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=AdvSimNetlist
-OutputName1=Mixed Sim
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -1576,6 +1566,8 @@ Type162=1
 Type163=1
 Type164=1
 Type165=2
+Type166=2
+Type167=2
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNNW
